@@ -49,4 +49,12 @@
       
    </div>
    <script>
+      function enableDark()
+      {
+         const theme =document.body;
+         theme.classList.toggle("dark-mode");
+         const togglebtn = document.getElementById("btn-toggle")
+         togglebtn.classList.remove("btn-light")
+         togglebtn.classList.add("btn-dark")
+      } 
    </script>
